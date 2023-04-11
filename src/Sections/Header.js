@@ -14,6 +14,8 @@ function App() {
             {/* Hero text set */}
             <div className='main-text text-white flex flex-col h-full w-full justify-center items-center text-center px-9'>
 
+                <div className="z-10">
+
                 <p className='hero-text text-5xl 
                 xs:text-6xl sm:text-8xl'>
                 
@@ -32,6 +34,7 @@ function App() {
 
                     Get a consulation
                 </button>
+                </div>
             </div>
 
         </div>
