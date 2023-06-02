@@ -1,15 +1,10 @@
-# Project Title
+# Dermedia - Landing Page
 
-## Table of Contents
 
-- [About](#about)
-- [Getting Started](#getting_started)
-- [Usage](#usage)
-- [Contributing](../CONTRIBUTING.md)
+## Figma File
 
-## About <a name = "about"></a>
+https://www.figma.com/file/UdsLTgUhY6P0wVY0gxBaAD/Untitled?node-id=0-1&t=a24IjDLnNcueE2dt-0
 
-Write about 1-2 paragraphs describing the purpose of your project.
 
 ## Getting Started <a name = "getting_started"></a>
 
