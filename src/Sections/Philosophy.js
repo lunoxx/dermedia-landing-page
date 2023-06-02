@@ -18,11 +18,11 @@ function App() {
             {/* section header */}
             <div className="flex mb-24">
 
-                <div className="flex gap-8 justify-center">
+                <div className="flex flex-col md:flex-row gap-8 justify-center">
 
-                    <div className="w-1/3 -translate-y-5 h-fit">
-                        <p className="text-8xl uppercase text-right">About<br/>us</p>
-                        <p className="py-10">We are a small media agency composed of a team of passionate creatives and filmakers that want to help small buisnesses and artists get their message out there.<br/><br/>At our digital design studio, we're passionate about creating beautiful, functional designs that help our clients achieve their goals. We've been in the business for years, and our team has the experience and expertise to tackle any project, big or small.</p>
+                    <div className="w-full md:w-1/3 -translate-y-5 h-fit">
+                        <p className="text-4xl md:text-8xl uppercase text-center md:text-right">About<br/>us</p>
+                        <p className="p-8 text-center md:py-10 md:text-left">We are a small media agency composed of a team of passionate creatives and filmakers that want to help small buisnesses and artists get their message out there.<br/><br/>At our digital design studio, we're passionate about creating beautiful, functional designs that help our clients achieve their goals. We've been in the business for years, and our team has the experience and expertise to tackle any project, big or small.</p>
                     </div>
 
                     <div>

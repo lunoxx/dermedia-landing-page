@@ -13,7 +13,7 @@ function App() {
   return (
     <section className='bg-[#f2f2f2] text-black'>
 
-        <div className='mx-auto max-w-screen-2xl px-3 py-36'>
+        <div className='mx-auto max-w-screen-2xl px-3 pb-36 md:py-36'>
 
             {/* Section Title */}
             <div className='uppercase font-normal h-10 text-xl border-b-2 border-black mb-10'>
@@ -32,7 +32,7 @@ function App() {
 
                     {/* Carousel with objects */}
                     <div className="my-8 flex">
-                        <div className="w-1/2">
+                        <div className="w-full md:w-1/2">
                             <Carousel 
 
                                 className='relative'
@@ -88,7 +88,8 @@ function App() {
                         </div>
 
                         {/* Section Description */}
-                        <div className='w-1/2 px-20 text-8xl font-bold italic text-center opacity-10 h-96 uppercase flex items-center justify-center hover:-skew-y-2 skew-y-1 hover:transition-all duration-500'>
+                        <div className='hidden md:flex 
+                        w-1/2 px-20 text-8xl font-bold italic text-center opacity-10 h-96 uppercase items-center justify-center hover:-skew-y-2 skew-y-1 hover:transition-all duration-500'>
                             <p>We make<br/>websites<br/>that shine</p>
                         </div>
                     </div>
@@ -106,11 +107,12 @@ function App() {
                     <div className="my-8 flex">
                         
                         {/* Section Description */}
-                        <div className='w-1/2 px-20 text-8xl font-bold italic text-center opacity-10 h-96 uppercase flex items-center justify-center hover:skew-y-2 -skew-y-1 hover:transition-all duration-500'>
+                        <div className='hidden md:flex 
+                        w-1/2 px-20 text-8xl font-bold italic text-center opacity-10 h-96 uppercase items-center justify-center hover:skew-y-2 -skew-y-1 hover:transition-all duration-500'>
                             <p>Our videos<br/>are<br/>insane!</p>
                         </div>
 
-                        <div className='w-1/2'>
+                        <div className='w-full md:w-1/2'>
                                 
                             <Carousel 
 
@@ -178,7 +180,7 @@ function App() {
                     {/* Carousel with objects */}
                     
                     <div className="my-8 flex">
-                        <div className='w-1/2'>
+                        <div className='w-full md:w-1/2'>
                             <Carousel 
 
                                 className='relative'
@@ -234,7 +236,9 @@ function App() {
                         </div>
                         
                         {/* Section Description */}
-                        <div className='w-1/2 px-20 text-8xl font-bold italic text-center opacity-10 h-96 uppercase flex items-center justify-center hover:-skew-y-2 skew-y-1 hover:transition-all duration-500'>
+                        <div className='hidden md:flex 
+                        w-1/2 px-20 text-8xl font-bold italic text-center opacity-10 h-96 uppercase items-center justify-center hover:-skew-y-2 skew-y-1 hover:transition-all duration-500'>
+
                             <p>Yes, we do<br/>that for<br/>you too!</p>
                         </div>
 

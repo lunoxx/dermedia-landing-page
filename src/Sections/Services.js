@@ -124,15 +124,23 @@ function App() {
 
             {/* What we offer? */}
 
-            <div className="w-full flex flex-row mt-14">
+            <div className="w-full flex flex-col md:flex-row mt-14">
 
-                <div className="flex w-[55%] justify-end pr-10 text-right uppercase text-8xl">
-                    <p className="w-2/3">
+                <div className="flex uppercase 
+                
+                    w-full justify-center text-center text-4xl 
+                    md:w-[55%] md:justify-end md:text-right md:text-8xl md:pr-10">
+                    
+                    <p className="md:w-2/3">
                         <span>What <br/>we offer</span>
                     </p>
                 </div>
 
-                <div className="flex w-[45%] pt-2 pr-20 text-lg leading-8">
+                <div className="flex text-lg  leading-8
+
+                    w-full p-8 text-center 
+                    md:w-[45%] md:pt-2 md:pr-20 md:text-left">
+
                     <p>At our studio, we're dedicated to staying on top of the latest trends and technologies. We believe in continuous learning and improvement, and we're always exploring new ways to push the boundaries of digital design. With our focus on simplicity, innovation, and compromise, we're confident that we can deliver the best possible results for our clients.</p>
                 </div>
             </div>

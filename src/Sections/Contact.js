@@ -4,7 +4,7 @@ function App() {
   return (
     <section className='bg-[#f2f2f2] text-black'>
 
-        <div className='mx-auto max-w-screen-2xl px-3 py-36'>
+        <div className='mx-auto max-w-screen-2xl px-3 pb-36 md:py-36'>
 
             {/* Section Title */}
             <div className='uppercase font-normal h-10 text-xl border-b-2 border-black mb-10'>
@@ -14,17 +14,20 @@ function App() {
             {/* Section Content */}
 
             {/* section header */}
-            <div className="flex mb-24">
-                <div className="w-7/12">
-                    <p className="text-8xl uppercase text-right">Have some<br/>questions left?</p>
+            <div className="flex flex-col md:flex-row mb-24">
+                <div className="w-full md:w-7/12">
+                    <p className="uppercase
+                    text-4xl text-center
+                    md:text-8xl md:text-right">Have some<br/>questions left?</p>
                 </div>
-                <div className="w-5/12 h-auto flex items-end">
-                    <p className="text-lg px-11">Fill in the form and our manager will contact you as soon as possible to discuss your projects</p>
+
+                <div className="w-full p-8 text-center md:w-5/12 md:p-0 md:text-left h-auto flex items-end">
+                    <p className="text-lg md:px-11">Fill in the form and our manager will contact you as soon as possible to discuss your projects</p>
                 </div>
             </div>
 
             {/* brand definitions */}
-            <div className="flex w-1/2">
+            <div className="flex w-full md:w-1/2">
                 <form className="w-full max-w-lg">
 
                     <div className="-mx-3">
